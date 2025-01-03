@@ -28,7 +28,7 @@ def tsp_bruteforce(graph):
 
     # Sinh tất cả các hoán vị
     all_permutations = generate_permutations(cities)
-
+    print(all_permutations)
     # Tìm đường đi với chi phí nhỏ nhất
     min_cost = float('inf')
     best_path = None
